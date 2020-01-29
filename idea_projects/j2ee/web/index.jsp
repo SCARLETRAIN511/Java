@@ -8,9 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>This is the title of this page</title>
   </head>
   <body>
-  $END$
+  Hello Idea alert
+  <script>
+    alert("hello tomcat");
+  </script>
   </body>
 </html>
