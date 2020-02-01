@@ -13,5 +13,8 @@ public class Operators {
         float weight = s.nextFloat();
         float bmi = weight/(height*height);
         System.out.println("The bmi is :" + bmi);
+        int k = 10;
+        k++;
+        System.out.println(k);
     }
 }
