@@ -1,21 +1,22 @@
 package String_Operation;
 
 public class MyStringBuffer implements IStringBuffer {
+    //Using the IStringBuffer interface;
     int capacity = 16;
     int length = 0;
     char[] value;
 
     public MyStringBuffer(){
         value = new char[capacity];
-    }
+    }//重構造
 
     public MyStringBuffer(String str){
         if (str != null){
             value = str.toCharArray();
-        }
+        }//Store the str in the char array
         length = value.length;
         if (capacity < value.length){
-            capacity = value.length*2;
+            capacity = value.length*2;//if the length is too bigger, double the length
         }
     }
 
@@ -49,15 +50,15 @@ public class MyStringBuffer implements IStringBuffer {
     }
     public int length(){
         return length;
-    }
+    }//length method
 
     public void append(String str){
         insert(length,str);
-    }
+    }//Insert at the end of the array
 
     public void append(char c){
         append(String.valueOf(c));
-    }
+    }//Turn it into string type first
 
     public void insert(int pos, char b){
         insert(pos,String.valueOf(b));
