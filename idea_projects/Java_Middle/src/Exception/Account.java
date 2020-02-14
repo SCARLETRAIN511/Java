@@ -30,7 +30,5 @@ public class Account {
             System.err.println(e.getDeficit());
             e.printStackTrace();
         }
-
     }
-
 }
