@@ -14,7 +14,12 @@ public class TestCollection {
 
         ArrayList h1 = new ArrayList();
         create(h1);
-        System.out.println(h1.indexOf(new Hero("hero2")));
+        h1.set(0,new Hero("Hero sp"));
+        System.out.println(h1);
+        System.out.println(h1.size());
+
+        Hero[] hs = (Hero[])heros.toArray(new Hero[]{});//轉換為數組
+        System.out.println(hs);
     }
     public static void create(ArrayList h1){
         for (int i = 0; i < 5;i++){

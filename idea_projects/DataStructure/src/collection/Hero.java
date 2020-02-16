@@ -1,6 +1,6 @@
 package collection;
 
-public class Hero {
+public class Hero implements LOL{
     String name;
     float hp;
     int damage;
