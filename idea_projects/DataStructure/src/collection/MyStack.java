@@ -29,7 +29,7 @@ public class MyStack implements Stack {
         }
         for (int i = 0; i<5; i++){
             Hero h = herostack.pull();
-            System.out.println("pull ou the hero" + h);
+            System.out.println("pull out the hero" + h);
         }
     }
 }
