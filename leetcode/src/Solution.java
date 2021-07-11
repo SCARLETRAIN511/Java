@@ -1,6 +1,10 @@
 /**
  * @author tangshao
  */
+
+/**
+ * this will include the solutions and practise for leetcode questions
+ */
 public class Solution {
     //leetcode 5: dp
     public String longestPalindrome(String s) {
